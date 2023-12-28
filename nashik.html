@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="icon" href="Logo.png">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Nashik</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>        
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+ <link href='https://fonts.googleapis.com/css?family=Faster One' rel='stylesheet'>
+  <style>
+    footer{
+      background-color:white;
+      color:black;
+    }
+    footer{
+      background-color:white;
+      color:black;
+    }
+    body{
+      background-color:#3A3836;
+      color:white;
+    }
+    .nav-item{
+    font-size:40px;
+    }
+     li:hover{
+background-color: burlywood;
+font-size:45px; 
+    } 
+    .destination-box {
+      width: 200px;
+      height: 200px;
+      margin: 10px;
+      padding: 10px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background-color: #303030;
+      color: #ffffff;
+      border-radius: 5px;
+      transition: background-color 0.3s ease;
+      float:left;
+    }
+    .destination-box:hover {
+      background-color: #666666;
+    }
+    
+    .card {  
+        width: 200px;
+        height: 200px;
+        margin: 10px;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: black;
+        border-radius: 5px;
+        transition: background-color 0.3s ease;
+        float: left;
+        overflow: hidden;
+        text-align: center;
+    }
+
+    .card img {
+        width: 190px;
+        height: 190px;
+        object-fit: cover;
+        border-radius: 0;
+    }
+
+    .card text {
+        text-align: center;
+        cursor: pointer;
+    }
+
+    .card:hover {
+        background-color: #ccc4c4;
+        cursor: pointer;
+    }
+
+    .container {
+      border: 1px solid white;
+          overflow: hidden;
+          padding:10px;
+          border-radius:30px;
+    }
+  .nav-item{
+font-size:40px;
+}
+    .modal-content{
+      color:black;
+    }
+    }
+</style>
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+<div class="container">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <h1 style="font-family:'Faster one' sans-serif;">Nashik </h1>
+  <a class="navbar-brand" href="Aboutus.html"><img src="Logo.png" style="width: 120px; height: 100px;"></a>
+  <div class="collapse navbar-collapse" id="myNavbar">
+    <ul class="navbar-nav ml-auto">
+<li class="nav-item"><a class="nav-link" href="index.html"><b style="text-align:center;">Home</b></a></li>
+<li class="nav-item"><a class="nav-link" href="Aboutus.html"><b style="text-align:center;">About us</b></a></li>
+<li class="nav-item"><a class="nav-link" href="Contactus.html"><b style="text-align:center;">Contact Us</b></a></li>
+      <li class="nav-item"><a class="nav-link" href="ourgoals.html"><b style="text-align:center;">Our goals</b></a>
+        </b></li>
+    </ul><br>
+  </div>
+</div>
+</nav>
+<br><br><br><br><br><br><br>
+<div class="container">
+  <h2>Nashik</h2>
+  <b>Weather: 23°C, Wind E at 8 km/h, 74% Humidity<br>
+  Neighborhoods: Ambad, Navshya Ganapati Parisar, Ramkund, MORE<br>
+  PIN: 422 001<br>
+  Demonym(s): Nashikkar, Nashikites<br>
+  District: Nashik<br>
+  Elevation: 602.48 m (1,976.64 ft)<br>
+  HDI: 0.746 (high)</b>
+</div>
+<div class="container">
+  <h2>About Nashik</h2>
+  <b>Nashik is an ancient holy city in Maharashtra, a state in western India. It’s known for its links to the “Ramayana” epic poem. On the Godavari River is Panchavati, a temple complex. Nearby, Lord Rama was thought to have bathed at Ram Kund water tank, today attended by Hindu devotees. Shri Kalaram Sansthan Mandir is an ancient shrine to Rama, while Rama and Sita are said to have worshipped at Sita Gufaa caves.</b>
+</div>
+<div class="container">
+  <h1>Places to visit in Nashik</h1>
+   <div class="card" data-toggle="modal" data-target="#exampleModal1">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/d/df/Kalaram_Temple_Nashik_Corner_View.jpg">
+    <b> Shree Kalaram Temple<br></b>
+  </div>
+  <div class="modal fade" id="exampleModal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel1" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel1">Shree Kalaram Temple</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+
+        <div class="modal-body">
+          The Shree Kalaram Temple is a significant Hindu temple located in the Panchavati area of Nashik, Maharashtra, India. The temple is dedicated to the deity Rama, and its name derives from the black statue of Rama housed within it. The literal translation of “Kalaram” is "black Rama".
+
+          The temple also houses the statues of the goddess Sita and the god Lakshmana1. Thousands of devotees visit the temple every day.
+
+          The original temple, dedicated to an unknown deity, was very old, estimated to be from the Rashtrakuta Period (7th to 11th centuries). The current temple was funded by Sardar Rangarao Odhekar and was built around 178812. According to a story, Odhekar had a dream that the statue of Rama in black color was in the Godavari River. He retrieved the statue from the river and built the temple.
+
+          The temple played a pivotal role in the Dalit movement in India. B. R. Ambedkar led a protest outside the temple on 2 March 1930, to allow Dalits into the temple.
+
+          The temple is constructed completely out of black stones and has four entrance doors, one each facing East, West, South, and North. The summit of the Kalaram Mandir is made up of 32 tons of gold.
+        </div>
+
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+ <div class="card" data-toggle="modal" data-target="#exampleModal2">
+  <img src="https://www.trawell.in/admin/images/upload/131652747Nashik_Mukti_Dham_Main.jpg">
+  <b>Shri Muktidham Mandir<br></b>
+</div>
+  <div class="modal fade" id="exampleModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel2" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel2">Shri Muktidham Mandir</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          Shri Muktidham Mandir is a well-known temple located in Nashik, Maharashtra, India. It’s made from marble that was sourced from Rajasthan. The temple was established by a local industrialist named Mr. J.D. Chauhan-Bytco.
+          The temple complex is unique because it houses replicas of all the Jyotirlingas, which have been built as per the dimensions of the original deities and have been sanctified by sending them to their respective pilgrimage centers. There is also a temple dedicated to Lord Krishna within the complex.
+          The walls of the Krishna temple are beautifully decorated with paintings depicting scenes from the life of Krishna and the Mahabharata. These paintings were created by the noted painter Raghubir Mulgaonkar. The walls of the temple also have the entire chapters of the Bhagavad Gita inscribed on them.
+          In addition to the replicas of all the Jyotirlingas and the temple of Sri Krishna, there are also idols of all major Hindu Gods and Goddesses like Vishnu, Laxmi, Rama, Laxman, Sita, Hanuman, Durga, Ganesha.
+          The temple complex also houses a dharamshala, which can accommodate a large number of pilgrims. The Muktidham Temple is visited by a large number of Hindu devotees, especially during the Kumbh Mela.
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+ <div class="card" data-toggle="modal" data-target="#exampleModal3">
+  <img src="https://images.livemint.com/img/2022/12/12/1600x900/Sula-Vineyards_1670845677318_1670845677526_1670845677526.jpg">
+  <b>Sula Vineyards<br></b>
+</div>
+  <div class="modal fade" id="exampleModal3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel3" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel3">Sula Vineyards</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          Sula Vineyards is a well-known winery located in the Nashik region of Maharashtra, India. It was established by Rajeev Samant and has since grown to become one of India’s most recognized and awarded wine brands.
+
+          The vineyard is situated amidst the beautiful rolling hills of Nashik, overlooking the Gangapur Dam. It’s known for its wide range of wines, from Chenin blanc and Sauvignon blanc to Zinfandel and Riesling.
+
+          Sula Vineyards is not just about wine, it’s also a destination for a luxury gourmet and adventure experience. The vineyard offers wine tours and tastings, and it’s home to restaurants, a gift shop, and a bottle shop. There’s also ‘Beyond by Sula’, a resort where one can stay and enjoy the scenic beauty of the vineyards and the surrounding landscape.
+
+          The vineyard also hosts the popular ‘SulaFest’, a music, food, and wine festival that attracts visitors from all over the world. Please note that the details might have changed after my last update in 2021. 
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+ <div class="card" data-toggle="modal" data-target="#exampleModal4">
+  <img src="https://lh3.googleusercontent.com/p/AF1QipMzGpaxGUoijyRJcoJ3mYKTSDcV2-IL5oCsW61W=s1360-w1360-h1020">
+  <b>Trimbakeshwar Jyotirling Mandir<br></b>
+</div>
+  <div class="modal fade" id="exampleModal4" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel4" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel4">Trimbakeshwar Jyotirling Mandir</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          Trimbakeshwar Jyotirling Mandir, located in the town of Trimbak near Nashik in Maharashtra, India, is a renowned Hindu temple that holds immense religious significance. It is one of the twelve Jyotirlingas, which are considered to be the most sacred abodes of Lord Shiva.
+
+          The temple complex is a magnificent architectural marvel, showcasing intricate carvings and sculptures that depict the rich heritage of Indian art and architecture. The craftsmanship and attention to detail in the temple's design are truly awe-inspiring.Situated at the origin of the Godavari River, the temple holds a special place in Hindu mythology and is believed to be the place where Lord Shiva resided in the form of a Jyotirlinga. The sacred river flowing nearby adds to the sanctity of the place, making it a significant pilgrimage site for devotees.
+ The main deity of the temple is Lord Trimbakeshwar, who is worshipped in the form of a lingam, symbolizing Lord Shiva's cosmic energy. The lingam is adorned with intricate jewelry and is the focal point of devotion for countless devotees who visit the temple seeking blessings and spiritual solace.
+The temple premises also house idols of other Hindu deities, including Lord Ganesh and Lord Vishnu, further enhancing the spiritual ambiance. The serene surroundings, with lush green hills and the gentle flow of the Godavari River, create a tranquil atmosphere that is conducive to meditation and introspection.
+Devotees can participate in various rituals and ceremonies conducted at the temple, such as Rudrabhishek, a special offering to Lord Shiva. The rhythmic chants, the fragrance of incense, and the sound of bells create a divine aura that uplifts the spirits of those present.
+Trimbakeshwar Jyotirling Mandir attracts a large number of devotees and tourists throughout the year, especially during festivals like Mahashivaratri, when the temple is adorned with vibrant decorations and witnesses grand celebrations.
+Visiting this sacred temple not only offers a chance to seek blessings but also provides an opportunity to immerse oneself in the rich cultural and religious heritage of India. The spiritual vibrations and the architectural grandeur of Trimbakeshwar Jyotirling Mandir make it a must-visit destination for those seeking a deeper connection with the divine.
+
+
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div><div class="card" data-toggle="modal" data-target="#exampleModal5">
+  <img src="https://ffo.gov.in/uploads/location_photos/Pandavleni-768x576.png">
+  <b>Pandav Leni Caves<br></b>
+</div>
+  <div class="modal fade" id="exampleModal5" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel5" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel5">Pandav Leni Caves</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          Pandav Leni Caves, also known as Pandavleni Caves or Trirashmi Caves, are a group of ancient rock-cut caves located near Nashik in Maharashtra, India. These caves hold great historical and architectural significance.
+The Pandav Leni Caves date back to the 3rd century BCE and were carved out of a single basalt rock hill. They are believed to have been used as Buddhist monastic complexes and served as a place of meditation and worship for Buddhist monks.
+The caves are named after the Pandavas, the legendary figures from the Hindu epic Mahabharata, as there is a popular belief that the Pandavas stayed in these caves during their exile. However, historical evidence suggests that the caves were actually created much earlier, during the reign of the Satavahana dynasty.
+There are a total of 24 caves in the complex, each showcasing intricate carvings, sculptures, and inscriptions. The caves vary in size and design, with some featuring prayer halls, chaityas (prayer halls with a stupa), and viharas (monastic cells). The sculptures depict various Buddhist deities, scenes from the life of Buddha, and intricate architectural motifs.
+Visiting the Pandav Leni Caves offers a glimpse into the rich Buddhist heritage of the region. The serene surroundings and the panoramic view from the hill make it a popular destination for history enthusiasts, archaeology lovers, and spiritual seekers.
+It is advisable to wear comfortable footwear as there are steps leading up to the caves. Additionally, visitors are encouraged to maintain the sanctity of the site and follow any guidelines provided by the authorities.
+In summary, Pandav Leni Caves are an ancient rock-cut cave complex near Nashik, Maharashtra, known for their historical significance, architectural beauty, and association with Buddhism.
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+ <div class="card" data-toggle="modal" data-target="#exampleModal6">
+  <img src="https://lh5.googleusercontent.com/p/AF1QipOdkSS3E_dUqhkuvXya7Z8JbKLKKI23R03YD_3K=s296-w296-h168-n-k-no-v1">
+  <b>Shree Saptashrungi Nivasini Devi Trust<br></b>
+</div>
+  <div class="modal fade" id="exampleModal6" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel6" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel6">Shree Saptashrungi Nivasini Devi Trust</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          Shree Saptashrungi Nivasini Devi Trust is a revered religious institution located in Nashik, Maharashtra, India. It is dedicated to the goddess Saptashrungi, who is believed to be an incarnation of Goddess Durga. The trust manages the temple and its surrounding facilities, ensuring a smooth and enriching experience for devotees.
+
+          The temple is situated atop the Saptashrungi Hills, which offer breathtaking panoramic views of the surrounding landscape. To reach the temple, visitors have to climb a flight of around 500 steps, which adds to the sense of spiritual journey and devotion.
+
+          The deity, Goddess Saptashrungi, is worshipped in the form of a stone idol adorned with various ornaments and garments. Devotees flock to the temple to seek the blessings of the goddess and offer their prayers. The temple complex also houses other smaller shrines dedicated to different deities, creating a serene and divine atmosphere.
+
+          The trust ensures that the temple premises are well-maintained and provide necessary facilities for devotees. There are separate queues for men and women, ensuring a smooth flow of darshan (sight of the deity). The trust also organizes various religious and cultural events throughout the year, attracting devotees from far and wide.
+
+          Apart from the religious significance, the Saptashrungi Hills are known for their natural beauty. The lush greenery, cascading waterfalls, and serene surroundings make it a popular destination for nature lovers and trekkers. The trek to the temple is considered a rewarding experience, offering a blend of spirituality and adventure.
+
+          The trust also provides accommodation facilities for devotees who wish to stay overnight. These accommodations range from simple rooms to more luxurious options, catering to the diverse needs of visitors. The trust also operates a canteen that serves delicious vegetarian food, ensuring that devotees are well-nourished during their visit.
+
+          Overall, the Shree Saptashrungi Nivasini Devi Trust is a significant religious institution that offers a profound spiritual experience to devotees. With its scenic location, well-maintained facilities, and devotion to Goddess Saptashrungi, it continues to attract devotees and visitors seeking solace and divine blessings.
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+ <div class="card" data-toggle="modal" data-target="#exampleModal7">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Trimbakeshwar_Temple-Nashik-Maharashtra-1.jpg/1200px-Trimbakeshwar_Temple-Nashik-Maharashtra-1.jpg" style="height:150px;">
+  <b>Trimbakeshwar Jyotirling Mandir<br></b>
+</div>
+  <div class="modal fade" id="exampleModal7" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel7" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel7">Trimbakeshwar Jyotirling Mandir</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+                   Trimbakeshwar Jyotirling Mandir, located in the town of Trimbak near Nashik in Maharashtra, India, is a renowned Hindu temple that holds immense religious significance. It is one of the twelve Jyotirlingas, which are considered to be the most sacred abodes of Lord Shiva.
+
+                    The temple complex is a magnificent architectural marvel, showcasing intricate carvings and sculptures that depict the rich heritage of Indian art and architecture. The craftsmanship and attention to detail in the temple's design are truly awe-inspiring.Situated at the origin of the Godavari River, the temple holds a special place in Hindu mythology and is believed to be the place where Lord Shiva resided in the form of a Jyotirlinga. The sacred river flowing nearby adds to the sanctity of the place, making it a significant pilgrimage site for devotees.
+           The main deity of the temple is Lord Trimbakeshwar, who is worshipped in the form of a lingam, symbolizing Lord Shiva's cosmic energy. The lingam is adorned with intricate jewelry and is the focal point of devotion for countless devotees who visit the temple seeking blessings and spiritual solace.
+          The temple premises also house idols of other Hindu deities, including Lord Ganesh and Lord Vishnu, further enhancing the spiritual ambiance. The serene surroundings, with lush green hills and the gentle flow of the Godavari River, create a tranquil atmosphere that is conducive to meditation and introspection.
+          Devotees can participate in various rituals and ceremonies conducted at the temple, such as Rudrabhishek, a special offering to Lord Shiva. The rhythmic chants, the fragrance of incense, and the sound of bells create a divine aura that uplifts the spirits of those present.
+          Trimbakeshwar Jyotirling Mandir attracts a large number of devotees and tourists throughout the year, especially during festivals like Mahashivaratri, when the temple is adorned with vibrant decorations and witnesses grand celebrations.
+          Visiting this sacred temple not only offers a chance to seek blessings but also provides an opportunity to immerse oneself in the rich cultural and religious heritage of India. The spiritual vibrations and the architectural grandeur of Trimbakeshwar Jyotirling Mandir make it a must-visit destination for those seeking a deeper connection with the divine.
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+ <div class="card" data-toggle="modal" data-target="#exampleModal8">
+  <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/14/02/5b/dd/img-20180728-141943-largejpg.jpg?w=1200&h=1200&s=1">
+  <b>Sita Gufa<br></b>
+</div>
+  <div class="modal fade" id="exampleModal8" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel8" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel8">Sita Gufa</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          Sita Gufa is a significant religious site located in Nashik, Maharashtra, India. It holds immense importance in Hindu mythology and is associated with the epic Ramayana. Sita Gufa, also known as Sita Cave, is believed to be the place where Goddess Sita, the consort of Lord Rama, sought refuge during their exile.
+
+          The cave is nestled amidst the scenic surroundings of Panchavati, a serene forest area in Nashik. It is said that Sita Gufa provided shelter to Goddess Sita when she was abducted by the demon king Ravana. According to the legend, it was here that she patiently waited for Lord Rama to rescue her.
+
+          Sita Gufa is a small cave that can be reached by climbing a few steps. Inside the cave, you will find a small shrine dedicated to Goddess Sita. Devotees visit this sacred site to pay their respects and seek blessings from the divine goddess.
+
+          The cave itself has a tranquil and serene atmosphere, making it an ideal place for meditation and introspection. The surrounding lush greenery adds to the peaceful ambiance, providing a serene escape from the hustle and bustle of city life.
+
+          Visiting Sita Gufa offers a chance to connect with the rich mythology and history of the Ramayana. It allows devotees and visitors to experience a sense of spirituality and devotion. Many people also believe that visiting this holy site can bring peace, prosperity, and fulfillment in their lives.
+
+          Overall, Sita Gufa in Nashik is a sacred cave associated with the revered Goddess Sita. It offers a serene and peaceful environment for devotees and visitors to connect with their spiritual side and immerse themselves in the divine energy of the place.
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+ <div class="card" data-toggle="modal" data-target="#exampleModal9">
+  <img src="https://cdn.s3waas.gov.in/s3b3967a0e938dc2a6340e258630febd5a/uploads/bfi_thumb/2019011864-olwbumk8zr11tkpyizv2v0hmulcagfa6a0kfgxc3bo.jpg">
+  <b>Ramkund</b>
+</div>
+  <div class="modal fade" id="exampleModal9" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel9" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel9">Ramkund</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          Ramkund is a significant and revered place located in Nashik, Maharashtra, India. It holds immense religious and historical importance. Ramkund is a sacred bathing ghat situated on the banks of the holy Godavari River.
+
+          According to Hindu mythology, it is believed that Lord Rama, along with his wife Sita and brother Lakshmana, stayed at this very spot during their exile period. It is said that Lord Rama used to take a dip in the Godavari River at Ramkund, making it a place of great spiritual significance.
+
+          The name "Ramkund" itself is derived from the combination of two words: "Ram," referring to Lord Rama, and "kund," meaning a holy pond or reservoir. The water of the Godavari River is considered sacred, and taking a dip in Ramkund is believed to cleanse one's sins and purify the soul.
+
+          Ramkund is not only a place of religious importance but also a hub of cultural and social activities. It attracts a large number of devotees and tourists throughout the year, especially during the Kumbh Mela, a grand Hindu pilgrimage festival that takes place every 12 years in Nashik.
+
+          The architecture and design of Ramkund reflect the traditional style of the region. The ghat is adorned with intricate carvings and sculptures, showcasing the rich cultural heritage of Nashik. The steps leading to the river are well-maintained, providing easy access for devotees to take a holy dip.
+
+          Apart from its religious significance, Ramkund offers a serene and picturesque environment. The surrounding area is dotted with temples, ashrams, and dharmashalas, providing a peaceful atmosphere for spiritual seekers and visitors.
+
+          During festivals and auspicious occasions, Ramkund comes alive with vibrant celebrations and rituals. Devotees gather here to perform various religious ceremonies, offer prayers, and immerse themselves in the divine atmosphere.
+
+          In conclusion, Ramkund in Nashik is a revered and sacred bathing ghat on the banks of the Godavari River. It holds immense religious, historical, and cultural significance. The place attracts devotees and tourists alike, offering a serene environment for spiritual rejuvenation and a glimpse into the rich heritage of the region.
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+ <div class="card" data-toggle="modal" data-target="#exampleModal10">
+  <img src="https://miro.medium.com/v2/resize:fit:564/1*KqzOHzjpD1MmXBGVFMEueA.jpeg" style="height:150px;">
+  <b>Harihar Fort</b>
+</div>
+  <div class="modal fade" id="exampleModal10" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel10" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel10">Harihar Fort</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          Harihar Fort, also known as Harshagad, is a magnificent historical fort located in the Nashik district of Maharashtra, India. Situated at an elevation of approximately 3,676 feet (1,120 meters) above sea level, this fort stands tall amidst the picturesque Sahyadri mountain range.
+
+          The fort's architecture is truly remarkable, with its distinctive triangular shape and rock-cut steps that lead to the summit. The ascent to the top of Harihar Fort is an adventure in itself, as trekkers navigate through steep and rugged terrain, making it a popular destination for thrill-seekers and nature enthusiasts.
+
+          As you make your way up, you'll encounter a series of carved niches along the rock-cut staircase, adding an artistic touch to the fort's structure. These niches were likely used for resting or storing essential items during the fort's heyday.
+
+          At the pinnacle of Harihar Fort, you'll be rewarded with breathtaking panoramic views of the surrounding landscape. On clear days, you can witness the beauty of the Sahyadri mountain range stretching as far as the eye can see. The fort also offers a mesmerizing view of the nearby Trimbakeshwar Temple, a revered Hindu pilgrimage site.
+
+          Exploring the fort further, you'll come across a small temple dedicated to Lord Hanuman, adding a spiritual element to the historical significance of Harihar Fort. Additionally, there is a water cistern that served as a vital source of water for the fort's inhabitants.
+
+          Harihar Fort holds a significant place in history, believed to have been constructed during the Yadava dynasty. Its strategic location and architectural brilliance make it a testament to the engineering prowess of the bygone era.
+
+          Visiting Harihar Fort is not only an opportunity to delve into the rich history of the region but also a chance to immerse yourself in the natural beauty of the Sahyadri mountains. However, it is advisable to undertake the trek with caution and preferably in the company of experienced trekkers or local guides, as the terrain can be challenging.
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+ <div class="card" data-toggle="modal" data-target="#exampleModal11">
+  <img src="https://www.loksatta.com/wp-content/uploads/2018/11/Untitled-20-1.jpg?w=830">
+  <b>Sundar Narayan Mandir</b>
+</div>
+  <div class="modal fade" id="exampleModal11" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel11" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel11">Sundar Narayan Mandir</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          At a distance of 2 km from Nashik Central Bus Station, Sundarnarayan temple is situated at the corner of Ahillyabai Holkar Bridge near Ram Kund in Panchavati area of Nashik.
+
+          The Sundarnarayan Temple is built by Gangadhar Yashwant Chandrachud in 1756. The presiding deity of the temple is Lord Vishnu as Sundarnarayan. According to legend, once the area was a place haunted by an evil demon named Jalandar who was an ardent devotee of Lord Shiva. Even though the demon was wild and practiced evil deeds, he had a pious and virtuous wife Vrinda Devi. Lord Shiva was highly impressed by his devotion and he blessed the demon with a boon of immortality. This boon made Jalandar to create destruction in the area.
+
+          The Gods realized the importance to kill the demon to save the mankind. The Gods approached Lord Vishnu to help them in this noble cause. Lord Vishnu understood that the chastity and piousness of Jalandar's wife is acting as a shield to his life. Lord Vishnu adopted the look of Jalandar and started living with his wife. He challenged the chastity of the women and killed Jalandar. When Jalandar's wife Devi Vrinda came to know this, she cursed Lord Vishnu to turn black and ugly. The curse of the lady made him dark and he had to take a holy dip in River Godavari to regain his original form. After regaining his original form, Lord Vishnu was called Sundarnarayan.
+
+          The temple presents imposing architecture especially the vaulted niche, which strikes a chord with the Mughal sculpture. The east-facing temple has three porches with balcony, lobed arches and globular domes. The main deity Lord Vishnu flanked by Lakshmi and Saraswati is placed in the sanctum. There are small carvings of Hanuman, Narayana and Indira on the walls. The most remarkable thing about this temple is the angle at which it is built. The sun rays of rising sun first fall directly on the idols on March 21st every year. Thousands of devotees visit this temple on this day to witness this holy event.
+
+          Timings: 6 AM - 12 PM and 5 PM - 9 PM.
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+ <div class="card" data-toggle="modal" data-target="#exampleModal12">
+  <img src="https://images.prismic.io/indiahike/c58513d9-5c5c-4bc6-95fa-e25806f3745f_anjaneri-fort-trek-banner-image-indiahikes.jpg?auto=compress,format" style="height:150px;">
+  <b>Anjaneri</b>
+</div>
+  <div class="modal fade" id="exampleModal12" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel12" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel12">Anjaneri</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          Anjaneri is a prominent location near Nashik in the state of Maharashtra, India. It is known for its historical and mythological significance. Anjaneri is believed to be the birthplace of Lord Hanuman, the Hindu deity known for his devotion and strength.
+
+          Located in the Sahyadri mountain range, Anjaneri offers picturesque views and is a popular destination for trekking enthusiasts. The trek to Anjaneri involves traversing through lush green forests, rocky terrains, and steep slopes. Along the way, you may come across ancient caves, waterfalls, and diverse flora and fauna.
+
+          At the top of Anjaneri, there is a temple dedicated to Lord Hanuman, known as Anjaneri Temple. Devotees visit this temple to seek blessings and pay homage to Lord Hanuman. The temple holds religious significance and attracts a significant number of visitors, especially during festivals like Hanuman Jayanti.
+
+          Apart from its religious and trekking significance, Anjaneri also has historical importance. It is believed to have been one of the forts built during the reign of the Maratha empire. Exploring the fortifications and ruins can provide insights into the region's history.
+
+          If you plan to visit Anjaneri, it is advisable to carry necessary supplies like water, snacks, and appropriate trekking gear. Additionally, it's always a good idea to check the local weather conditions and seek guidance from experienced trekkers or local authorities for a safe and enjoyable experience.
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+ <div class="card" data-toggle="modal" data-target="#exampleModal13">
+  <img src="https://cdn.s3waas.gov.in/s3b3967a0e938dc2a6340e258630febd5a/uploads/bfi_thumb/2019011890-olwbuni36l2c56oldi9pfi93fz7no4dwm57wy7ap5g.jpg">
+  <b>Shree Someshwar Mandir</b>
+</div>
+  <div class="modal fade" id="exampleModal13" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel13" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel13">Shree Someshwar Mandir</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          Shree Someshwar Mandir is a renowned temple located in Nashik, Maharashtra, India. It is dedicated to Lord Shiva, one of the principal deities in Hinduism. The temple holds immense religious and cultural significance and attracts devotees from far and wide.
+
+          The architecture of Shree Someshwar Mandir showcases a blend of traditional and modern styles. The temple complex features intricate carvings, ornate pillars, and beautifully adorned sanctums. The main sanctum houses the sacred lingam, symbolizing Lord Shiva, and devotees offer prayers and perform rituals with utmost devotion.
+
+          The temple premises also include various other shrines dedicated to different deities, such as Lord Ganesha, Goddess Parvati, Lord Hanuman, and Lord Vishnu. These shrines provide devotees with an opportunity to seek blessings and offer their prayers to multiple deities in one place.
+
+          Shree Someshwar Mandir holds great significance during the festival of Mahashivaratri, which is celebrated with grandeur and devotion. Devotees gather in large numbers to participate in special ceremonies, religious discourses, and cultural programs held within the temple complex.
+
+          Apart from its religious importance, the temple is also surrounded by natural beauty. It is situated near the Godavari River, adding to the serene and peaceful ambiance of the surroundings. The lush greenery and tranquil atmosphere make it an ideal place for spiritual contemplation and seeking solace.
+
+          Visiting Shree Someshwar Mandir offers devotees an opportunity to connect with their faith, experience the rich cultural heritage of Nashik, and immerse themselves in the divine aura of Lord Shiva.
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+ <div class="card" data-toggle="modal" data-target="#exampleModal14">
+  <img src="https://nashik.com/images/ramkund.jpg">
+  <b>Panchavati</b>
+</div>
+  <div class="modal fade" id="exampleModal14" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel14" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel14">Panchavati</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          Panchavati is a significant religious and pilgrimage site located in Nashik, Maharashtra, India. It holds great importance in Hindu mythology and is believed to be the place where Lord Rama, along with his wife Sita and brother Lakshmana, resided during their exile period.
+
+          The word "Panchavati" translates to "a garden of five banyan trees" in Sanskrit. It is named after the five ancient banyan trees that are said to have existed in the area. These trees are believed to be symbolic of the five elements of nature.
+
+          Panchavati is home to several prominent temples and sacred sites. The most renowned among them is the Kalaram Temple, dedicated to Lord Rama. This temple is known for its striking black stone idol of Lord Rama, which is believed to have been self-manifested.
+
+          Another significant temple in Panchavati is the Sita Gufa (cave), which is believed to be the spot where Sita, the wife of Lord Rama, stayed during their exile. Nearby, there is also the Kapaleshwar Temple, dedicated to Lord Shiva.
+
+          Panchavati attracts a large number of devotees and tourists throughout the year, especially during the Kumbh Mela, a major Hindu pilgrimage festival that takes place every 12 years in Nashik. The serene and spiritual ambiance of Panchavati, along with its historical and mythological significance, makes it a popular destination for those seeking spiritual solace and cultural exploration.
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+ <div class="card" data-toggle="modal" data-target="#exampleModal15">
+  <img src="https://static.wixstatic.com/media/77a25b_e9386e4a7a594e14b8598d2e36d8fe0e~mv2.png/v1/fill/w_824,h_560,fp_0.50_0.52,q_90,usm_0.66_1.00_0.01,enc_auto/Screenshot%202023-10-04%20at%205_35_12%20PM.png">
+  <b>York Winery & Tasting Room</b>
+</div>
+  <div class="modal fade" id="exampleModal15" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel15" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel15">York Winery & Tasting Room</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          York Winery & Tasting Room is a renowned establishment located in Nashik, Maharashtra. It is a picturesque winery that offers a delightful experience for wine enthusiasts and visitors alike. The winery is known for its commitment to producing high-quality wines using traditional winemaking techniques combined with modern technology.
+
+          The sprawling vineyards surrounding the winery create a stunning backdrop, providing a serene and tranquil atmosphere. York Winery takes pride in cultivating a variety of grapes, including Sauvignon Blanc, Chenin Blanc, Shiraz, and Cabernet Sauvignon, among others. These grapes are carefully nurtured and harvested to ensure the production of exceptional wines.
+
+          The Tasting Room at York Winery offers visitors the opportunity to sample a wide range of their exquisite wines. With a team of knowledgeable and friendly staff, they guide guests through the tasting experience, explaining the characteristics and nuances of each wine. The Tasting Room also provides a comfortable and inviting ambiance, making it an ideal place to relax and enjoy the flavors of their wines.
+
+          In addition to wine tastings, York Winery hosts various events and activities throughout the year. These include vineyard tours, wine appreciation workshops, and special wine-pairing dinners. These events offer a deeper insight into the winemaking process and allow visitors to engage with the rich culture and history of winemaking in Nashik.
+
+          Overall, York Winery & Tasting Room is a must-visit destination for wine enthusiasts and those seeking a unique and memorable experience in Nashik. Whether you are a connoisseur or simply appreciate the art of winemaking, this establishment offers a delightful journey through the world of wines.
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+  <footer>
+    <div class="footer-container">
+      <p>&copy; 2023 TIndia Company. All rights reserved.</p>
+     
+        <b><a href="index.html">Home</a></li></b><br>
+       <b><a href="Aboutus.html">About Us</a></b><br>
+        <b><a href="ourgoals.html">Our Goals</a></b><br>
+        <b><a href="Contactus.html">Contact us</a></b>
+ 
+    </div>
+  </footer>
+</html>

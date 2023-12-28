@@ -1,0 +1,97 @@
+  <!DOCTYPE html>
+  <html>
+  <head>
+    <link rel="icon" href="logo-color.png">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Home</title>
+    <link href="mumbai.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <style>
+        body {
+            background-color: #3A3836;
+            color: white;
+        }
+
+        li:hover {
+            background-color: aquamarine;
+            font-size: 30px;
+            cursor: pointer;
+        }
+
+        .destination-box {
+            width: 200px;
+            height: 200px;
+            margin: 10px;
+            padding: 10px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-color: #303030;
+            color: #ffffff;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+            float: left;
+          overflow:hidden;
+          text-align:center;
+        }
+
+        .destination-box:hover {
+            background-color: #666666;
+        }
+
+        .destination-box img {
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 0;
+            margin-bottom: 10px;
+        }
+      .destination-box text{
+        text-align:center;
+        text-align:center;
+      }
+      .img-logo
+    </style>
+  </head>
+<body>
+  <header>
+    <body data-spy="scroll" data-target=".navbar" data-offset="50">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <h1 style="font-family:'Faster one' sans-serif;">Home </h1>
+      <a class="navbar-brand" href="Aboutus.html"><img src="Logo.png" style="width: 120px; height: 100px;" id="img-logo"></a>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="navbar-nav ml-auto">
+    <li class="nav-item"><a class="nav-link" href="index.html"><b style="text-align:center;">Home</b></a></li>
+    <li class="nav-item"><a class="nav-link" href="Aboutus.html"><b style="text-align:center;">About us</b></a></li>
+   <li class="nav-item"><a class="nav-link" href="Contactus.html"><b style="text-align:center;">Contact Us</b></a></li>
+          <li class="nav-item"><a class="nav-link" href="ourgoals.html"><b style="text-align:center;">Our goals</a>
+            </b></li>
+
+
+        </ul><br>
+      </div>
+    </div>
+    </nav>
+  </header>
+  <li class="destination-box"
+    onclick="window.location.href='mumbai.html'">
+    <img src="https://tourscanner.com/blog/wp-content/uploads/2022/07/fun-and-unusual-things-to-do-in-Mumbai.jpg">
+    <b>Mumbai</b>
+  </li>
+  <li class="destination-box"
+    onclick="window.location.href='pune.html'">
+    <img src="https://resize.indiatvnews.com/en/resize/newbucket/1200_-/2021/07/pune-1625115438.jpg">
+    <b>Pune</b>
+  </li>
+</body>
+
+</html>
